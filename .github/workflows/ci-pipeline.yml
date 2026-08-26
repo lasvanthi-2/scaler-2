@@ -15,6 +15,6 @@ jobs:
       - name: checkout 
         uses: actions/checkout@v3
       - name: current branch
-        run: echo " CI branch name: ${{ github.ref }}"
+        run: echo "CI branch name: ${{ github.ref }}"
 
 
